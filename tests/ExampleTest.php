@@ -6,11 +6,11 @@ use Laravel\Lumen\Testing\DatabaseTransactions;
 class ExampleTest extends TestCase
 {
     /**
-     * A basic test example.
+     * Test Same Version is Returned
      *
      * @return void
      */
-    public function testExample()
+    public function testTheSameReturnedVersion()
     {
         $this->get('/');
 
